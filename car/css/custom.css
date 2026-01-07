@@ -1,0 +1,286 @@
+/* 新能源汽车门户网站自定义样式 */
+
+/* 轮播图样式 */
+.carousel-img {
+    height: 450px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.carousel-caption h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+.carousel-caption p {
+    color: #ddd;
+}
+
+/* 快捷导航条 */
+.quick-nav {
+    background: linear-gradient(135deg, #1a5f2a 0%, #2d8f4e 100%);
+    padding: 15px 0;
+}
+.quick-nav-item {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.quick-nav-item:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+.quick-nav-item i {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 5px;
+}
+.quick-nav-item span {
+    font-size: 0.9rem;
+}
+
+/* 主内容区 */
+.main-content {
+    padding: 30px 15px;
+    background: #f5f5f5;
+}
+
+/* 新闻板块通用样式 */
+.news-section {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.section-header {
+    background: linear-gradient(135deg, #c41e3a 0%, #e74c3c 100%);
+    color: #fff;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-header h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.section-header h4 i {
+    margin-right: 8px;
+}
+.section-header .more-link {
+    color: #fff;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+.section-header .more-link:hover {
+    text-decoration: underline;
+}
+
+/* 不同颜色的板块头 */
+.section-header-green {
+    background: linear-gradient(135deg, #1a5f2a 0%, #27ae60 100%);
+}
+.section-header-blue {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+}
+.section-header-orange {
+    background: linear-gradient(135deg, #d35400 0%, #e67e22 100%);
+}
+.section-header-red {
+    background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+}
+.section-header-gray {
+    background: linear-gradient(135deg, #555 0%, #777 100%);
+}
+
+/* 新闻列表 */
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.news-list li {
+    padding: 10px 15px;
+    border-bottom: 1px dashed #eee;
+}
+.news-list li:last-child {
+    border-bottom: none;
+}
+.news-list li::before {
+    content: "•";
+    color: #c41e3a;
+    margin-right: 8px;
+    font-weight: bold;
+}
+.news-list li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+.news-list li a:hover {
+    color: #c41e3a;
+}
+
+/* 热门车型卡片 */
+.hot-cars-section {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.car-card {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s;
+    margin: 0 10px;
+}
+.car-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+}
+.car-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.car-info {
+    padding: 10px;
+    text-align: center;
+}
+.car-info h5 {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+.car-info .price {
+    color: #c41e3a;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* 数据库新闻项 */
+.db-news-item {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+.db-news-item:last-child {
+    border-bottom: none;
+}
+.db-news-item a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.db-news-item .news-title {
+    color: #333;
+    font-weight: 500;
+}
+.db-news-item .news-title:hover {
+    color: #c41e3a;
+}
+.db-news-item .news-date {
+    color: #999;
+    font-size: 0.85rem;
+}
+.db-news-item .news-summary {
+    color: #666;
+    font-size: 0.85rem;
+    margin: 5px 0 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 通知列表 */
+.notice-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.notice-list li {
+    padding: 10px 15px;
+    border-bottom: 1px dashed #eee;
+    font-size: 0.9rem;
+    color: #333;
+}
+.notice-list li .badge {
+    margin-right: 5px;
+    font-size: 0.7rem;
+}
+
+/* 友情链接 */
+.friend-links {
+    padding: 15px;
+}
+.friend-links a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 3px;
+    background: #f0f0f0;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.85rem;
+    border-radius: 3px;
+}
+.friend-links a:hover {
+    background: #c41e3a;
+    color: #fff;
+}
+
+/* 导航栏样式覆盖 */
+#mainNav {
+    background: linear-gradient(135deg, #1a5f2a 0%, #2d8f4e 100%) !important;
+}
+#mainNav .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#mainNav .nav-link {
+    color: rgba(255,255,255,0.9) !important;
+}
+#mainNav .nav-link:hover {
+    color: #fff !important;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+/* 页脚样式 */
+footer {
+    background: #2c3e50 !important;
+    color: #fff;
+    padding: 30px 0;
+}
+footer .text-muted {
+    color: rgba(255,255,255,0.7) !important;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px;
+    }
+    .carousel-caption h2 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+    .quick-nav-item i {
+        font-size: 1.2rem;
+    }
+    .quick-nav-item span {
+        font-size: 0.75rem;
+    }
+    .car-card img {
+        height: 100px;
+    }
+}
