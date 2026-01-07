@@ -81,14 +81,20 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="assets\favicon.ico" />
-    <Content Include="assets\img\about-bg.jpg" />
-    <Content Include="assets\img\contact-bg.jpg" />
-    <Content Include="assets\img\home-bg.jpg" />
-    <Content Include="assets\img\post-bg.jpg" />
-    <Content Include="assets\img\post-sample-image.jpg" />
     <Content Include="css\styles.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner2.jpg" />
+    <Content Include="images\banner3.jpg" />
+    <Content Include="images\car1.jpg" />
+    <Content Include="images\car2.jpg" />
+    <Content Include="images\car3.jpg" />
+    <Content Include="images\car4.jpg" />
+    <Content Include="images\about.jpg" />
     <Content Include="js\scripts.js" />
     <Content Include="Login.aspx" />
+    <Content Include="news1.aspx" />
+    <Content Include="news2.aspx" />
     <Content Include="NewsModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NewsModel.Context.cs</LastGenOutput>
@@ -116,6 +122,20 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news1.aspx.cs">
+      <DependentUpon>news1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news1.aspx.designer.cs">
+      <DependentUpon>news1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news2.aspx.cs">
+      <DependentUpon>news2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news2.aspx.designer.cs">
+      <DependentUpon>news2.aspx</DependentUpon>
     </Compile>
     <Compile Include="News.cs">
       <DependentUpon>NewsModel.tt</DependentUpon>

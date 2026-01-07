@@ -37,7 +37,7 @@
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=300&h=200&fit=crop" alt="新能源汽车" class="img-fluid rounded">
+                    <img src="images/about.jpg" alt="新能源汽车" class="img-fluid rounded">
                 </div>
             </div>
         </div>

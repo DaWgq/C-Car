@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="新能源汽车资讯平台" />
     <meta name="author" content="" />
-    <title>学号姓名 - 新能源汽车专题网</title>
+    <title>你的学号姓名 - 新能源汽车专题网</title>
     
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     
@@ -84,9 +84,9 @@
                             </li>
                         </ul>
                         <div class="small text-center text-muted fst-italic">
-                            Copyright &copy; 新能源汽车专题网 2022级数字媒体技术 你的姓名(你的学号)
+                            Copyright &copy; 新能源汽车专题网 | 2022级数字媒体技术 | 你的学号+你的姓名
                             <br>
-                            本页得分点：使用了母版页、CSS布局、响应式设计、轮播图、多栏布局、数据绑定
+                            <span style="color: #ffd700;">【本页得分点】</span>母版页、CSS布局、响应式设计、轮播图、多栏布局、数据绑定控件(Repeater)、BulletedList控件、Image控件、HyperLink控件、Label控件、Session状态管理、LINQ查询、Entity Framework、验证控件(RequiredFieldValidator/CompareValidator)
                         </div>
                     </div>
                 </div>
