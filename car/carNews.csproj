@@ -95,6 +95,8 @@
     <Content Include="Login.aspx" />
     <Content Include="news1.aspx" />
     <Content Include="news2.aspx" />
+    <Content Include="news3.aspx" />
+    <Content Include="news4.aspx" />
     <Content Include="NewsModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NewsModel.Context.cs</LastGenOutput>
@@ -136,6 +138,20 @@
     </Compile>
     <Compile Include="news2.aspx.designer.cs">
       <DependentUpon>news2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news3.aspx.cs">
+      <DependentUpon>news3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news3.aspx.designer.cs">
+      <DependentUpon>news3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news4.aspx.cs">
+      <DependentUpon>news4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news4.aspx.designer.cs">
+      <DependentUpon>news4.aspx</DependentUpon>
     </Compile>
     <Compile Include="News.cs">
       <DependentUpon>NewsModel.tt</DependentUpon>

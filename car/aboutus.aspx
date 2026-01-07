@@ -3,18 +3,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         .about-section { background: #fff; border-radius: 10px; padding: 30px; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .about-title { color: #1a5f2a; border-left: 4px solid #1a5f2a; padding-left: 15px; margin-bottom: 20px; }
-        .tech-badge { display: inline-block; padding: 8px 15px; margin: 5px; background: linear-gradient(135deg, #1a5f2a, #27ae60); color: #fff; border-radius: 20px; font-size: 0.9rem; }
+        .about-title { color: #2c3e50; border-left: 4px solid #3498db; padding-left: 15px; margin-bottom: 20px; }
+        .tech-badge { display: inline-block; padding: 8px 15px; margin: 5px; background: linear-gradient(135deg, #2c3e50, #3498db); color: #fff; border-radius: 20px; font-size: 0.9rem; }
         .feature-card { text-align: center; padding: 20px; border: 1px solid #eee; border-radius: 10px; transition: all 0.3s; }
         .feature-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.15); transform: translateY(-5px); }
-        .feature-card i { font-size: 3rem; color: #1a5f2a; margin-bottom: 15px; }
-        .team-img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid #1a5f2a; }
+        .feature-card i { font-size: 3rem; color: #3498db; margin-bottom: 15px; }
+        .team-img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid #3498db; }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <!-- 顶部横幅 -->
-    <div style="background: linear-gradient(135deg, #1a5f2a 0%, #2d8f4e 100%); padding: 60px 0; text-align: center; color: #fff;">
+    <div style="background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%); padding: 60px 0; text-align: center; color: #fff;">
         <div class="container">
             <h1><i class="fas fa-info-circle"></i> 关于我们</h1>
             <p class="lead">新能源汽车资讯平台 · 设计理念与技术实现</p>
@@ -83,7 +83,7 @@
             <p>
                 在设计本网站时，我参考了以下优秀的行业网站：<br />
                 <strong>网站名称：</strong> 汽车之家新能源频道<br />
-                <strong>网址：</strong> <a href="https://www.autohome.com.cn/newenergy/" target="_blank" style="color: #1a5f2a;">https://www.autohome.com.cn/newenergy/</a>
+                <strong>网址：</strong> <a href="https://www.autohome.com.cn/newenergy/" target="_blank" style="color: #3498db;">https://www.autohome.com.cn/newenergy/</a>
             </p>
             <div class="alert alert-success">
                 <strong>评价：</strong> 该参考网站布局清晰，色彩搭配以科技蓝和环保绿为主，非常符合新能源汽车的主题。
@@ -146,9 +146,9 @@
             <h2 class="about-title" style="text-align: center; border: none; padding: 0;"><i class="fas fa-envelope"></i> 联系我们</h2>
             <p>如有任何问题或建议，欢迎联系我们：</p>
             <p>
-                <i class="fas fa-envelope" style="color: #1a5f2a;"></i> 邮箱：contact@newenergy.com<br>
-                <i class="fas fa-phone" style="color: #1a5f2a;"></i> 电话：400-XXX-XXXX<br>
-                <i class="fas fa-map-marker-alt" style="color: #1a5f2a;"></i> 地址：XX省XX市XX大学
+                <i class="fas fa-envelope" style="color: #3498db;"></i> 邮箱：contact@newenergy.com<br>
+                <i class="fas fa-phone" style="color: #3498db;"></i> 电话：400-XXX-XXXX<br>
+                <i class="fas fa-map-marker-alt" style="color: #3498db;"></i> 地址：XX省XX市XX大学
             </p>
         </div>
     </div>

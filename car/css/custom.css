@@ -20,7 +20,7 @@
 
 /* 快捷导航条 */
 .quick-nav {
-    background: linear-gradient(135deg, #1a5f2a 0%, #2d8f4e 100%);
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
     padding: 15px 0;
 }
 .quick-nav-item {
@@ -56,7 +56,7 @@
     overflow: hidden;
 }
 .section-header {
-    background: linear-gradient(135deg, #c41e3a 0%, #e74c3c 100%);
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
     color: #fff;
     padding: 12px 15px;
     display: flex;
@@ -80,21 +80,21 @@
     text-decoration: underline;
 }
 
-/* 不同颜色的板块头 */
+/* 不同颜色的板块头 - 统一蓝色主题 */
 .section-header-green {
-    background: linear-gradient(135deg, #1a5f2a 0%, #27ae60 100%);
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 100%);
 }
 .section-header-blue {
     background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
 }
 .section-header-orange {
-    background: linear-gradient(135deg, #d35400 0%, #e67e22 100%);
+    background: linear-gradient(135deg, #34495e 0%, #5dade2 100%);
 }
 .section-header-red {
-    background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+    background: linear-gradient(135deg, #1a3a5c 0%, #2980b9 100%);
 }
 .section-header-gray {
-    background: linear-gradient(135deg, #555 0%, #777 100%);
+    background: linear-gradient(135deg, #4a6fa5 0%, #6b8cce 100%);
 }
 
 /* 新闻列表 */
@@ -112,7 +112,7 @@
 }
 .news-list li::before {
     content: "•";
-    color: #c41e3a;
+    color: #3498db;
     margin-right: 8px;
     font-weight: bold;
 }
@@ -123,7 +123,7 @@
     transition: color 0.3s;
 }
 .news-list li a:hover {
-    color: #c41e3a;
+    color: #3498db;
 }
 
 /* 热门车型卡片 */
@@ -160,7 +160,7 @@
     color: #333;
 }
 .car-info .price {
-    color: #c41e3a;
+    color: #e74c3c;
     font-weight: bold;
     font-size: 0.9rem;
     margin: 0;
@@ -184,7 +184,7 @@
     font-weight: 500;
 }
 .db-news-item .news-title:hover {
-    color: #c41e3a;
+    color: #3498db;
 }
 .db-news-item .news-date {
     color: #999;
@@ -211,6 +211,13 @@
     font-size: 0.9rem;
     color: #333;
 }
+.notice-list li a {
+    color: #333;
+    text-decoration: none;
+}
+.notice-list li a:hover {
+    color: #3498db;
+}
 .notice-list li .badge {
     margin-right: 5px;
     font-size: 0.7rem;
@@ -231,13 +238,13 @@
     border-radius: 3px;
 }
 .friend-links a:hover {
-    background: #c41e3a;
+    background: #3498db;
     color: #fff;
 }
 
-/* 导航栏样式覆盖 */
+/* 导航栏样式覆盖 - 蓝色主题 */
 #mainNav {
-    background: linear-gradient(135deg, #1a5f2a 0%, #2d8f4e 100%) !important;
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%) !important;
 }
 #mainNav .navbar-brand {
     color: #fff !important;

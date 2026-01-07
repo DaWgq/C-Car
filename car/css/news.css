@@ -1,0 +1,157 @@
+.news-page-header {
+    background: #2c3e50;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.news-page-header h1 {
+    margin-bottom: 10px;
+}
+
+.news-container {
+    padding: 30px 15px;
+    background: #f5f5f5;
+}
+
+.article-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.article-title {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.article-meta {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.article-meta i {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.article-meta i:first-child {
+    margin-left: 0;
+}
+
+.article-body {
+    line-height: 1.8;
+    color: #333;
+}
+
+.article-body p {
+    margin-bottom: 15px;
+    text-indent: 2em;
+}
+
+.article-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.article-nav {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.sidebar-section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.related-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.related-list li:last-child {
+    border-bottom: none;
+}
+
+.related-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.related-list a:hover {
+    color: #3498db;
+}
+
+.rank-table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.rank-table th {
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.rank-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.rank-table tr:hover {
+    background: #f5f5f5;
+}
+
+.rank-num {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rank-1 { background: #e74c3c; }
+.rank-2 { background: #e67e22; }
+.rank-3 { background: #f1c40f; }
+.rank-other { background: #95a5a6; }
+
+.data-highlight {
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.data-highlight-blue {
+    font-size: 2rem;
+    color: #3498db;
+    font-weight: bold;
+}

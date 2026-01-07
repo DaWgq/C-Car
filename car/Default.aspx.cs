@@ -1,9 +1,6 @@
 ﻿using car;
 using System;
-using System.Collections.Generic;
 using System.Linq; // 必须引用 LINQ
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace carNews

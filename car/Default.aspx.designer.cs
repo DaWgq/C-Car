@@ -17,15 +17,11 @@ namespace carNews
         protected global::System.Web.UI.WebControls.Label lblNav4;
         protected global::System.Web.UI.WebControls.Label lblNav5;
         protected global::System.Web.UI.WebControls.Label lblNav6;
-        protected global::System.Web.UI.WebControls.BulletedList blIndustry;
-        protected global::System.Web.UI.WebControls.BulletedList blPolicy;
-        protected global::System.Web.UI.WebControls.BulletedList blTech;
         protected global::System.Web.UI.WebControls.Image imgCar1;
         protected global::System.Web.UI.WebControls.Image imgCar2;
         protected global::System.Web.UI.WebControls.Image imgCar3;
         protected global::System.Web.UI.WebControls.Image imgCar4;
         protected global::System.Web.UI.WebControls.Repeater rptNews;
-        protected global::System.Web.UI.WebControls.BulletedList blNotice;
         protected global::System.Web.UI.WebControls.HyperLink hlLink1;
         protected global::System.Web.UI.WebControls.HyperLink hlLink2;
         protected global::System.Web.UI.WebControls.HyperLink hlLink3;
